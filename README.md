@@ -1,30 +1,55 @@
-# Caesar CLI
+<div align="center">
 
-A simple terminal-based Caesar Cipher tool written in Python.
+# 🏛️ Caesar CLI
 
-Encrypt and decrypt text directly from your terminal. Supports uppercase, lowercase, numbers, symbols, and colorful CLI banners.
+**A simple, colorful, and interactive terminal-based Caesar Cipher tool.**
 
----
+[![Python](https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=for-the-badge)](https://github.com/usaihack/Caesar-CLI/graphs/commit-activity)
 
-## Features
-
-- Encrypt and decrypt text using Caesar Cipher
-- Supports both uppercase and lowercase letters
-- Numbers and symbols remain unchanged
-- Colorful terminal banners with Colorama
-- Simple and interactive CLI menu
+</div>
 
 ---
 
-## Installation (Kali/Linux)
+## 📖 Table of Contents
 
-### Option 1: Using a virtual environment (recommended)
+- [About](#-about)
+- [Features](#-features)
+- [Installation](#-installation)
+- [Usage](#-usage)
+- [Requirements](#-requirements)
+- [Contributing](#-contributing)
 
-# Clone the repo
+---
+
+## 🧐 About
+
+**Caesar CLI** allows you to encrypt and decrypt text directly from your terminal with ease. It supports uppercase, lowercase, numbers, and symbols, all wrapped in a colorful CLI interface.
+
+---
+
+## 🚀 Features
+
+- 🔐 **Encrypt & Decrypt**: Seamlessly switch between modes.
+- 🔠 **Full Support**: Handles uppercase, lowercase letters, numbers, and symbols.
+- 🎨 **Visual Appeal**: Beautiful terminal banners using `Colorama`.
+- ⚡ **Interactive**: Simple and intuitive CLI menu.
+
+---
+
+## 🛠️ Installation
+
+### Linux / Kali (Recommended)
+
+#### Option 1: Virtual Environment
+
+```bash
+# Clone the repository
 git clone https://github.com/usaihack/Caesar-CLI.git
 cd Caesar-CLI
 
-# Create and activate a virtual environment
+# Create and activate virtual environment
 python3 -m venv venv
 source venv/bin/activate
 
@@ -32,42 +57,71 @@ source venv/bin/activate
 pip install -r requirements.txt
 pip install .
 
-# Run the CLI in venv
+# Run the application
 caesar
+```
 
+#### Option 2: Global Install (pipx)
 
-### Option 2: Using pipx (global CLI installation)
-
-# Install pipx if not already installed
+```bash
+# Install pipx (if not installed)
 sudo apt install pipx
 pipx ensurepath
 
-# Clone and install
-git clone https://github.com/usaihack/Caesar-CLI.git
-cd Caesar-CLI
-pipx install .
+# Install directly from source
+pipx install git+https://github.com/usaihack/Caesar-CLI.git
 
-# Run the CLI anywhere
+# Run anywhere
 caesar
+```
 
+---
 
-## Usage
+## 💻 Usage
 
-- Run the CLI: caesar
-- Choose Encrypt or Decrypt from the menu
-- Enter your text and the shift number
-- Get the encrypted or decrypted output instantly
+Run the tool and follow the on-screen prompts:
 
-
-## Requirements
-
-- Python 3.x
-- Colorama library (pip install colorama)
-
-
-## Contributing
-
-- Feel free to open issues or pull requests
-- Improve banners, colors, or add features
-# Run the CLI
+```bash
 caesar
+```
+
+**Example Session:**
+
+```text
+[?] Choose an option:
+    1. Encrypt
+    2. Decrypt
+> 1
+
+[?] Enter text to encrypt: Hello World
+[?] Enter shift amount: 3
+
+[+] Encrypted Text: Khoor Zruog
+```
+
+---
+
+## 📦 Requirements
+
+- **Python 3.x**
+- **Colorama** (`pip install colorama`)
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+---
+
+<div align="center">
+
+Made with ❤️ by [usaihack](https://github.com/usaihack)
+
+</div>
