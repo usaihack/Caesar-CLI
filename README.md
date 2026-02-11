@@ -103,13 +103,17 @@ python caesar.py
 ### 📸 Example Session
 
 ```text
-[?] Choose an option:
+[1] Choose an option:
     1. Encrypt
     2. Decrypt
-> 1
+---
+---
 
-[?] Enter text to encrypt: Hello World!
-[?] Enter shift amount: 3
+[2] Enter text to encrypt: Hello World!
+[3] Enter shift amount: 3
+
+---
+---
 
 [+] Encrypted Text: Khoor Zruog!
 ```
